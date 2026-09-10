@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Mobile Platform \u00b7 Initial Architecture",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1280,
+      660
+    ]
+  },
+  "components": [
+    {
+      "id": "mobile",
+      "type": "frontend",
+      "label": "Flutter Mobile App",
+      "sublabel": "Mobile client",
+      "pos": [
+        70,
+        221
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "identity",
+      "type": "security",
+      "label": "Keycloak",
+      "sublabel": "Authentication layer",
+      "pos": [
+        470,
+        72
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "rest",
+      "type": "backend",
+      "label": "FastAPI REST API",
+      "sublabel": "API layer \u00b7 authorize requests",
+      "pos": [
+        470,
+        221
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "relational",
+      "type": "database",
+      "label": "PostgreSQL",
+      "sublabel": "Relational data",
+      "pos": [
+        940,
+        182
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "documents",
+      "type": "database",
+      "label": "MongoDB",
+      "sublabel": "Document data",
+      "pos": [
+        940,
+        299
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "maps",
+      "type": "external",
+      "label": "Leaflet / Maps Service",
+      "sublabel": "Map integration / provider",
+      "pos": [
+        70,
+        384
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "compose",
+      "type": "cloud",
+      "label": "Docker Compose",
+      "sublabel": "Development orchestration",
+      "pos": [
+        70,
+        520
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "containers",
+      "type": "cloud",
+      "label": "Docker",
+      "sublabel": "Local service containers",
+      "pos": [
+        470,
+        520
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "git",
+      "type": "external",
+      "label": "Git",
+      "sublabel": "Local source control",
+      "pos": [
+        940,
+        520
+      ],
+      "size": [
+        210,
+        80
+      ]
+    },
+    {
+      "id": "github",
+      "type": "external",
+      "label": "GitHub",
+      "sublabel": "Remote repository",
+      "pos": [
+        940,
+        422
+      ],
+      "size": [
+        210,
+        70
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Device \u00b7 untrusted client",
+      "wraps": [
+        "mobile"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "security-group",
+      "label": "Identity trust boundary",
+      "wraps": [
+        "identity"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "security-group",
+      "label": "Application trust boundary",
+      "wraps": [
+        "rest"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "security-group",
+      "label": "Private data layer",
+      "wraps": [
+        "relational",
+        "documents"
+      ],
+      "pad": 30
+    },
+    {
+      "kind": "security-group",
+      "label": "External maps provider",
+      "wraps": [
+        "maps"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "region",
+      "label": "Development infrastructure \u00b7 local workstation",
+      "wraps": [
+        "compose",
+        "containers",
+        "git"
+      ],
+      "pad": 25
+    }
+  ],
+  "connections": [
+    {
+      "id": "login",
+      "from": "mobile",
+      "to": "identity",
+      "label": "Sign in / tokens",
+      "variant": "security",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "request",
+      "from": "mobile",
+      "to": "rest",
+      "label": "HTTPS + bearer token",
+      "variant": "emphasis"
+    },
+    {
+      "id": "keys",
+      "from": "rest",
+      "to": "identity",
+      "label": "Fetch signing keys",
+      "variant": "security",
+      "labelAt": [
+        575,
+        176
+      ]
+    },
+    {
+      "id": "sql",
+      "from": "rest",
+      "to": "relational",
+      "label": "SQL read / write"
+    },
+    {
+      "id": "docs",
+      "from": "rest",
+      "to": "documents",
+      "label": "Document read / write"
+    },
+    {
+      "id": "tiles",
+      "from": "mobile",
+      "to": "maps",
+      "label": "HTTPS map requests",
+      "labelAt": [
+        175,
+        339
+      ]
+    },
+    {
+      "id": "orchestrate",
+      "from": "compose",
+      "to": "containers",
+      "label": "Start local services",
+      "variant": "dashed"
+    },
+    {
+      "id": "source",
+      "from": "git",
+      "to": "github",
+      "label": "Push / pull",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Request flow",
+      "items": [
+        "Sign in \u2192 receive token \u2192 call API \u2192 read/write data.",
+        "Responses return along the request path; maps are called directly."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Proposed trust model",
+      "items": [
+        "Assumption: OIDC with PKCE; API validates tokens using Keycloak keys.",
+        "Databases accept backend access only; boundaries are conceptual."
+      ]
+    },
+    {
+      "dot": "slate",
+      "title": "Development & scope",
+      "items": [
+        "Compose runs API, identity and databases in Docker locally.",
+        "Leaflet denotes map UI integration; map provider and Flutter adapter are TBD. GitHub is external to the workstation."
+      ]
+    }
+  ]
+}
