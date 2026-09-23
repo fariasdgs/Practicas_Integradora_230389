@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "deliver",
+  "type": "architecture",
+  "input": "/Users/farias/UTXJ/10A-IDGS INTEGRADORA/Practicas_Integradora_230389/artifacts/mobile-architecture.json",
+  "output": "/Users/farias/UTXJ/10A-IDGS INTEGRADORA/Practicas_Integradora_230389/artifacts/mobile-architecture.html",
+  "specification": {
+    "sha256": "4585628db70e907206e8135091b33028555cfe3b34bb31dcd56fc2963abed382",
+    "bytes": 5611
+  },
+  "artifact": {
+    "sha256": "c57f4e553f84bfc7805630ce4c182c7dea6523eb855f74c18000e6f7fbf724e3",
+    "bytes": 811716
+  },
+  "validation": {
+    "checksPassed": 9,
+    "checkCount": 9,
+    "compositionProfile": "showcase",
+    "compositionStatus": "pass",
+    "errors": 0,
+    "warnings": 0
+  }
+}
