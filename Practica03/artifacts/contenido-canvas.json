@@ -1,0 +1,168 @@
+{
+  "application": "WhatsApp",
+  "scope": "Boceto académico: mensajería y soluciones empresariales",
+  "blocks": [
+    {
+      "id": "socios",
+      "title": "Socios clave",
+      "summary": "Integradores y distribución",
+      "items": [
+        {
+          "text": "Integradores de Business Platform y proveedores de soluciones empresariales.",
+          "evidence": "F4"
+        },
+        {
+          "text": "Tiendas de aplicaciones y proveedores de conectividad como aliados de distribución y acceso.",
+          "evidence": "H"
+        }
+      ]
+    },
+    {
+      "id": "actividades",
+      "title": "Actividades clave",
+      "summary": "Mensajería, seguridad y soporte",
+      "items": [
+        {
+          "text": "Desarrollo de mensajería e integraciones para negocios.",
+          "evidence": "F1, F4"
+        },
+        {
+          "text": "Mantenimiento, prevención de abuso y operación continua.",
+          "evidence": "H"
+        }
+      ]
+    },
+    {
+      "id": "valor",
+      "title": "Propuesta de valor",
+      "summary": "Comunicación personal y comercial",
+      "items": [
+        {
+          "text": "Mensajes y archivos accesibles desde móvil, web y escritorio.",
+          "evidence": "F1"
+        },
+        {
+          "text": "Atención comercial mediante perfiles, catálogos e integraciones.",
+          "evidence": "F2, F4"
+        }
+      ]
+    },
+    {
+      "id": "relaciones",
+      "title": "Relación con clientes",
+      "summary": "Autoservicio y atención empresarial",
+      "items": [
+        {
+          "text": "Ayuda y autoservicio para usuarios de la aplicación.",
+          "evidence": "F5"
+        },
+        {
+          "text": "Acompañamiento de integradores para clientes empresariales.",
+          "evidence": "H"
+        }
+      ]
+    },
+    {
+      "id": "segmentos",
+      "title": "Segmentos de clientes",
+      "summary": "Personas, comercios y empresas",
+      "items": [
+        {
+          "text": "Personas que necesitan comunicarse; pequeños negocios.",
+          "evidence": "F1, F2"
+        },
+        {
+          "text": "Empresas que integran atención y notificaciones mediante API.",
+          "evidence": "F4"
+        }
+      ]
+    },
+    {
+      "id": "recursos",
+      "title": "Recursos clave",
+      "summary": "Software, infraestructura y equipo",
+      "items": [
+        {
+          "text": "Aplicaciones y API como base del servicio.",
+          "evidence": "F1, F4"
+        },
+        {
+          "text": "Infraestructura, personal técnico y red de usuarios.",
+          "evidence": "H"
+        }
+      ]
+    },
+    {
+      "id": "canales",
+      "title": "Canales",
+      "summary": "Móvil, web, escritorio y API",
+      "items": [
+        {
+          "text": "Aplicaciones móviles, WhatsApp Web y escritorio.",
+          "evidence": "F1"
+        },
+        {
+          "text": "Business App y Business Platform para acceso empresarial.",
+          "evidence": "F2, F4"
+        }
+      ]
+    },
+    {
+      "id": "costos",
+      "title": "Estructura de costos",
+      "summary": "Infraestructura, desarrollo y soporte",
+      "items": [
+        {
+          "text": "Infraestructura y operación del servicio.",
+          "evidence": "H"
+        },
+        {
+          "text": "Desarrollo, seguridad, soporte y personal; sin cifras públicas verificadas en este trabajo.",
+          "evidence": "H"
+        }
+      ]
+    },
+    {
+      "id": "ingresos",
+      "title": "Fuentes de ingresos",
+      "summary": "Mensajes empresariales de pago",
+      "items": [
+        {
+          "text": "Business Platform: cobro por mensajes entregados sujetos a tarifa; varía por categoría y mercado.",
+          "evidence": "F3"
+        },
+        {
+          "text": "Existen mensajes y ventanas gratuitas. Otros productos comerciales quedan fuera de este boceto.",
+          "evidence": "F3"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "F1",
+      "title": "Mensajería y acceso multiplataforma",
+      "url": "https://www.whatsapp.com/messaging?lang=en"
+    },
+    {
+      "id": "F2",
+      "title": "WhatsApp Business App",
+      "url": "https://whatsappbusiness.com/products/business-app/"
+    },
+    {
+      "id": "F3",
+      "title": "Precios de Business Platform",
+      "url": "https://whatsappbusiness.com/products/platform-pricing/"
+    },
+    {
+      "id": "F4",
+      "title": "WhatsApp Business Platform",
+      "url": "https://whatsappbusiness.com/products/business-platform/"
+    },
+    {
+      "id": "F5",
+      "title": "Centro de ayuda",
+      "url": "https://faq.whatsapp.com/"
+    }
+  ]
+}

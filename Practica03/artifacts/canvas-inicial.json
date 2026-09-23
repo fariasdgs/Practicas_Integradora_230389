@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "WhatsApp · Canvas inicial",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "hidden"
+    },
+    "viewBox": [
+      1380,
+      650
+    ]
+  },
+  "components": [
+    {
+      "id": "socios",
+      "type": "external",
+      "label": "Socios clave",
+      "sublabel": "Proveedores y aliados",
+      "pos": [
+        60,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "actividades",
+      "type": "external",
+      "label": "Actividades clave",
+      "sublabel": "Operación y desarrollo",
+      "pos": [
+        515,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "valor",
+      "type": "external",
+      "label": "Propuesta de valor",
+      "sublabel": "Comunicación multiplataforma",
+      "pos": [
+        970,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "relaciones",
+      "type": "external",
+      "label": "Relación con clientes",
+      "sublabel": "Autoservicio y soporte",
+      "pos": [
+        60,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "segmentos",
+      "type": "external",
+      "label": "Segmentos de clientes",
+      "sublabel": "Personas y empresas",
+      "pos": [
+        515,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "recursos",
+      "type": "external",
+      "label": "Recursos clave",
+      "sublabel": "Tecnología y equipo",
+      "pos": [
+        970,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "canales",
+      "type": "external",
+      "label": "Canales",
+      "sublabel": "Aplicaciones y web",
+      "pos": [
+        60,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "costos",
+      "type": "external",
+      "label": "Estructura de costos",
+      "sublabel": "Operación de la plataforma",
+      "pos": [
+        515,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "ingresos",
+      "type": "external",
+      "label": "Fuentes de ingresos",
+      "sublabel": "Servicios para empresas",
+      "pos": [
+        970,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    }
+  ],
+  "connections": []
+}
