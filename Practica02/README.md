@@ -6,7 +6,7 @@
 
 Aplicación móvil · Autenticación · API REST · Bases de datos
 
-[**🌐 Explorar el diagrama interactivo →**](https://fariasdgs.github.io/Practicas_Integradora_230389/artifacts/mobile-architecture.html)
+[**🌐 Explorar el diagrama interactivo →**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica02/artifacts/mobile-architecture.html)
 
 </div>
 
@@ -22,7 +22,7 @@ El objetivo es comprender la responsabilidad de cada componente, el recorrido de
 
 El diagrama muestra una propuesta basada en **Flutter**, **FastAPI** y **Keycloak**, con almacenamiento en **PostgreSQL** y **MongoDB**. También incluye la integración de mapas y las herramientas previstas para el entorno de desarrollo.
 
-[![Vista previa del diagrama de arquitectura móvil](artifacts/mobile-architecture.visual-check.1440x900.dark.png)](https://fariasdgs.github.io/Practicas_Integradora_230389/artifacts/mobile-architecture.html)
+[![Vista previa del diagrama de arquitectura móvil](artifacts/mobile-architecture.visual-check.1440x900.dark.png)](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica02/artifacts/mobile-architecture.html)
 
 > Haz clic en la imagen o en el enlace superior para explorar la arquitectura en el navegador.
 
@@ -66,4 +66,4 @@ La propuesta separa el cliente móvil, la identidad, la API y la capa privada de
 
 ## 🚀 Cómo consultarlo
 
-Abre el [**diagrama publicado en GitHub Pages**](https://fariasdgs.github.io/Practicas_Integradora_230389/artifacts/mobile-architecture.html) para explorarlo en línea. También puedes descargar el repositorio y abrir `artifacts/mobile-architecture.html` directamente en tu navegador.
+Abre el [**diagrama publicado en GitHub Pages**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica02/artifacts/mobile-architecture.html) para explorarlo en línea. También puedes descargar el repositorio y abrir `artifacts/mobile-architecture.html` directamente en tu navegador.
