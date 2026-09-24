@@ -14,4 +14,14 @@
 - specification_sha256: `43bd08e7dd8f539c413cf046bbdd399fe862eb921cb8c6029c9d3313afe04d28`
 - artifact_sha256: `8089e09f3eb9d29e19b8625c2cfcd88842a981db31ccc5a8f109cd2993b3ecee`
 
-[Recibo de entrega](artifacts/canvas-final.delivery.json) · [Evidencia de navegador](artifacts/canvas-final.visual-check.json) · [Capturas](artifacts/canvas-final.visual-check.html) · [Vista tradicional](artifacts/canvas-tradicional.png)
+[Recibo de entrega](artifacts/canvas-final.delivery.json) · [Evidencia de navegador](artifacts/canvas-final.visual-check.json) · [Ver capturas en línea](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.visual-check.html) · [Vista tradicional](artifacts/canvas-tradicional.png)
+
+## Revisión previa al merge
+
+- Se comprobaron 30 referencias locales en los README, la documentación y los HTML: todos los destinos existen.
+- Los nueve bloques y sus textos coinciden entre el README, el Canvas tradicional y `contenido-canvas.json`.
+- La validación del JSON final se ejecutó nuevamente: 9/9 comprobaciones, sin errores ni advertencias.
+- Los hashes de los HTML inicial y final coinciden con sus recibos de navegador; el JSON y HTML finales coinciden con el recibo de entrega. La evidencia visual anterior sigue correspondiendo a estos archivos, sin una nueva inspección de navegador.
+- La API de GitHub Pages informó `built`, con origen `practica03` y `/`.
+- La comprobación directa de las páginas públicas agotó el tiempo de conexión desde el entorno de revisión. Esto no permite confirmar su accesibilidad actual ni demuestra que los enlaces estén rotos; queda pendiente abrirlos en el navegador del estudiante.
+- Se corrigió el enlace de las capturas para abrir la página publicada y se documentó el cambio de origen de Pages después del merge.
