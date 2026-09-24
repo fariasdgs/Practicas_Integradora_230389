@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "WhatsApp · Modelo de negocio",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "hidden"
+    },
+    "viewBox": [
+      1380,
+      650
+    ]
+  },
+  "components": [
+    {
+      "id": "socios",
+      "type": "external",
+      "label": "Socios clave",
+      "sublabel": "Integradores y distribución",
+      "pos": [
+        60,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "actividades",
+      "type": "external",
+      "label": "Actividades clave",
+      "sublabel": "Mensajería, seguridad y soporte",
+      "pos": [
+        515,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "valor",
+      "type": "external",
+      "label": "Propuesta de valor",
+      "sublabel": "Comunicación personal y comercial",
+      "pos": [
+        970,
+        60
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "relaciones",
+      "type": "external",
+      "label": "Relación con clientes",
+      "sublabel": "Autoservicio y atención empresarial",
+      "pos": [
+        60,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "segmentos",
+      "type": "external",
+      "label": "Segmentos de clientes",
+      "sublabel": "Personas, comercios y empresas",
+      "pos": [
+        515,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "recursos",
+      "type": "external",
+      "label": "Recursos clave",
+      "sublabel": "Software, infraestructura y equipo",
+      "pos": [
+        970,
+        270
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "canales",
+      "type": "external",
+      "label": "Canales",
+      "sublabel": "Móvil, web, escritorio y API",
+      "pos": [
+        60,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "costos",
+      "type": "external",
+      "label": "Estructura de costos",
+      "sublabel": "Infraestructura, desarrollo y soporte",
+      "pos": [
+        515,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    },
+    {
+      "id": "ingresos",
+      "type": "external",
+      "label": "Fuentes de ingresos",
+      "sublabel": "Mensajes empresariales de pago",
+      "pos": [
+        970,
+        480
+      ],
+      "size": [
+        360,
+        110
+      ]
+    }
+  ],
+  "connections": []
+}

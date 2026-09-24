@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "deliver",
+  "type": "architecture",
+  "input": "/Users/farias/UTXJ/10A-IDGS INTEGRADORA/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.json",
+  "output": "/Users/farias/UTXJ/10A-IDGS INTEGRADORA/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.html",
+  "specification": {
+    "sha256": "43bd08e7dd8f539c413cf046bbdd399fe862eb921cb8c6029c9d3313afe04d28",
+    "bytes": 2542
+  },
+  "artifact": {
+    "sha256": "8089e09f3eb9d29e19b8625c2cfcd88842a981db31ccc5a8f109cd2993b3ecee",
+    "bytes": 799899
+  },
+  "validation": {
+    "checksPassed": 9,
+    "checkCount": 9,
+    "compositionProfile": "showcase",
+    "compositionStatus": "pass",
+    "errors": 0,
+    "warnings": 0
+  }
+}
