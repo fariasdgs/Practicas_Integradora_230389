@@ -64,6 +64,8 @@ La propuesta separa el cliente móvil, la identidad, la API y la capa privada de
 | [Vista previa oscura](artifacts/mobile-architecture.visual-check.1440x900.dark.png) | Imagen de referencia con tema oscuro. |
 | [Vista previa clara](artifacts/mobile-architecture.visual-check.1440x900.light.png) | Imagen de referencia con tema claro. |
 
+Los recibos de entrega y revisión visual conservados en `artifacts/` corresponden a una versión anterior del HTML: su hash no coincide con el archivo actual. El JSON sí coincide con el recibo de entrega; las capturas anteriores no certifican la presentación actual.
+
 ## 🚀 Cómo consultarlo
 
 Abre el [**diagrama publicado en GitHub Pages**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica02/artifacts/mobile-architecture.html) para explorarlo en línea. También puedes descargar el repositorio y abrir `artifacts/mobile-architecture.html` directamente en tu navegador.

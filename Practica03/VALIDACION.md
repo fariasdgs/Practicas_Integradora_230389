@@ -22,6 +22,14 @@
 - Los nueve bloques y sus textos coinciden entre el README, el Canvas tradicional y `contenido-canvas.json`.
 - La validación del JSON final se ejecutó nuevamente: 9/9 comprobaciones, sin errores ni advertencias.
 - Los hashes de los HTML inicial y final coinciden con sus recibos de navegador; el JSON y HTML finales coinciden con el recibo de entrega. La evidencia visual anterior sigue correspondiendo a estos archivos, sin una nueva inspección de navegador.
-- La API de GitHub Pages informó `built`, con origen `practica03` y `/`.
+- En la revisión anterior, la API de GitHub Pages informó `built`, con origen `practica03` y `/`. El origen actual es `main` y `/`.
 - La comprobación directa de las páginas públicas agotó el tiempo de conexión desde el entorno de revisión. Esto no permite confirmar su accesibilidad actual ni demuestra que los enlaces estén rotos; queda pendiente abrirlos en el navegador del estudiante.
 - Se corrigió el enlace de las capturas para abrir la página publicada y se documentó el cambio de origen de Pages después del merge.
+
+## Revisión de enlaces de ambas prácticas
+
+- Se comprobaron 56 referencias a archivos locales y destinos de Pages en los Markdown y HTML del repositorio: todos los destinos existen en `practica03`.
+- Los cinco enlaces de fuentes externas pudieron consultarse con la herramienta web.
+- Los JSON se pudieron leer sin errores de sintaxis. Los hashes de Práctica 03 siguen coincidiendo con sus recibos.
+- Los recibos de Práctica 02 corresponden a un HTML anterior; se documentó esta limitación en su README.
+- La publicación de Práctica 03 desde `main` requiere fusionar y subir esta rama.

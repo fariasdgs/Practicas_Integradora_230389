@@ -141,9 +141,9 @@ node "/ruta/a/archify/bin/archify.mjs" deliver architecture Practica03/artifacts
 node "/ruta/a/archify/bin/archify.mjs" visual-check Practica03/artifacts/canvas-final.html --json
 ```
 
-La publicación actual utiliza la rama `practica03` y la carpeta `/ (root)` en GitHub Pages. La entrada del repositorio abre el mapa final de Archify; el Canvas tradicional tiene su propia dirección en `Practica03/`.
+La publicación actual utiliza la rama `main` y la carpeta `/ (root)` en GitHub Pages. La entrada del repositorio abre el mapa final de Archify; el Canvas tradicional tiene su propia dirección en `Practica03/`.
 
-**Después del merge:** si quieres publicar desde `main`, primero sube la fusión a GitHub y después selecciona `main` y `/ (root)` en **Settings → Pages**. Espera a que termine la publicación antes de eliminar la rama `practica03`. Las direcciones del Canvas y Archify seguirán siendo las mismas.
+**Después del merge:** sube la fusión a `main` en GitHub y espera a que termine el despliegue de Pages. El origen ya está configurado en `main` y `/ (root)`. Las direcciones del Canvas y Archify seguirán siendo las mismas.
 
 ## Fuentes
 
