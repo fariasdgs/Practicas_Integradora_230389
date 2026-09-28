@@ -6,7 +6,7 @@
 
 Integradora · Aplicación multiplataforma · Valor de la actividad: 10 firmas
 
-[**Ver Canvas completo →**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/) · [**Explorar en Archify →**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.html)
+[**Explorar en Archify →**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.html)
 
 </div>
 
@@ -18,11 +18,11 @@ Esta práctica analiza el modelo de negocio de WhatsApp mediante los nueve bloqu
 
 ### Explorar los resultados
 
-| Resultado | Qué encontrarás |
-| --- | --- |
-| [Canvas tradicional](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/) | Los nueve bloques con explicaciones, fuentes e hipótesis en la distribución clásica del Canvas. |
-| [Modelo final en Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.html) | Mapa resumido de los nueve bloques, con controles de tema, zoom y exportación. |
-| [Boceto inicial en Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-inicial.html) | Primera versión conservada para comparar las mejoras. |
+| Resultado                                                                                                                      | Qué encontrarás                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| [Canvas tradicional](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/)                                     | Los nueve bloques con explicaciones, fuentes e hipótesis en la distribución clásica del Canvas. |
+| [Modelo final en Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-final.html)     | Cuadros ampliables con explicaciones, ejemplos, indicadores y fuentes; acceso al mapa original con zoom y exportación.                  |
+| [Boceto inicial en Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-inicial.html) | Primera versión conservada para comparar las mejoras.                                           |
 
 Los enlaces de esta tabla abren las páginas publicadas. Los archivos editables y la documentación se encuentran al final de la actividad 5.
 
@@ -36,18 +36,18 @@ El alcance comprende mensajería personal, Business App y Business Platform. El 
 
 Se redactó el [prompt inicial](prompts/01-inicial.md). Se tradujo su solicitud a una especificación JSON y se generó el [primer HTML con Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica03/artifacts/canvas-inicial.html). Archify renderiza JSON: el prompt orienta al asistente que prepara la especificación; no se presenta como una API de texto de la herramienta.
 
-La versión instalada de Archify no tiene un esquema nativo para Business Model Canvas. Se adaptó el tipo `architecture` como mapa de nueve categorías, sin conexiones: los bloques no representan pasos secuenciales. Los tipos técnicos internos no atribuyen infraestructura a WhatsApp. La interfaz fija y el atributo `html lang` del visor Archify usan inglés por limitación del generador; el contenido académico está en español.
+La versión instalada de Archify no tiene un esquema nativo para Business Model Canvas. Se adaptó el tipo `architecture` como mapa de nueve categorías, sin conexiones: los bloques no representan pasos secuenciales. Los tipos técnicos internos no atribuyen infraestructura a WhatsApp. El mapa base conserva la interfaz fija de Archify en inglés; el explorador de cuadros ampliables tiene interfaz y contenido en español.
 
 ## 3. Revisión del primer resultado
 
-| Criterio | Hallazgo inicial | Mejora aplicada |
-| --- | --- | --- |
-| Cobertura | Contiene nueve bloques | Se conservan los nueve |
-| Precisión | “Personas y empresas” mezcla segmentos | Se distinguen personas, pequeños negocios y empresas con API |
-| Ingresos | “Servicios para empresas” es ambiguo | Se indica cobro de mensajes sujetos a tarifa y excepciones |
-| Evidencia | El boceto no cita fuentes | Se agregan F1–F5 y marcas H |
-| Costos | No explica categorías ni incertidumbre | Se describen categorías como hipótesis, sin cantidades |
-| Presentación | Cuadrícula de bloques, no disposición tradicional | Se agrega una vista tradicional complementaria |
+| Criterio     | Hallazgo inicial                                  | Mejora aplicada                                              |
+| ------------ | ------------------------------------------------- | ------------------------------------------------------------ |
+| Cobertura    | Contiene nueve bloques                            | Se conservan los nueve                                       |
+| Precisión    | “Personas y empresas” mezcla segmentos            | Se distinguen personas, pequeños negocios y empresas con API |
+| Ingresos     | “Servicios para empresas” es ambiguo              | Se indica cobro de mensajes sujetos a tarifa y excepciones   |
+| Evidencia    | El boceto no cita fuentes                         | Se agregan F1–F5 y marcas H                                  |
+| Costos       | No explica categorías ni incertidumbre            | Se describen categorías como hipótesis, sin cantidades       |
+| Presentación | Cuadrícula de bloques, no disposición tradicional | Se agrega una vista tradicional complementaria               |
 
 El primer resultado era útil como estructura, pero insuficiente para explicar el negocio. La revisión permitió precisar el alcance y mejorar la explicación de cada bloque.
 
@@ -114,18 +114,30 @@ El [prompt mejorado](prompts/02-mejorado.md) añade alcance, segmentos, fuentes,
 
 ### Archivos y evidencias
 
-| Archivo | Propósito |
-| --- | --- |
-| [Prompt inicial](prompts/01-inicial.md) | Solicitud utilizada para preparar el primer boceto. |
-| [Prompt mejorado](prompts/02-mejorado.md) | Solicitud con alcance, fuentes y criterios de presentación. |
-| [JSON inicial](artifacts/canvas-inicial.json) | Especificación del primer mapa de Archify. |
-| [JSON final](artifacts/canvas-final.json) | Especificación editable del mapa final. |
-| [Contenido del Canvas](artifacts/contenido-canvas.json) | Ideas por bloque y referencias de respaldo. |
-| [Captura del Canvas](artifacts/canvas-tradicional.png) | Vista previa de la distribución tradicional. |
-| [Validación](VALIDACION.md) | Comprobaciones realizadas y alcance de la revisión visual. |
-| [Recibo de entrega](artifacts/canvas-final.delivery.json) | Resultado de las nueve comprobaciones de Archify e identidad de los archivos. |
+| Archivo                                                   | Propósito                                                                     |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [Prompt inicial](prompts/01-inicial.md)                   | Solicitud utilizada para preparar el primer boceto.                           |
+| [Prompt mejorado](prompts/02-mejorado.md)                 | Solicitud con alcance, fuentes y criterios de presentación.                   |
+| [JSON inicial](artifacts/canvas-inicial.json)             | Especificación del primer mapa de Archify.                                    |
+| [JSON final](artifacts/canvas-final.json)                 | Especificación editable del mapa final.                                       |
+| [Contenido del Canvas](artifacts/contenido-canvas.json)   | Ideas por bloque y referencias de respaldo.                                   |
+| [Captura del Canvas](artifacts/canvas-tradicional.png)    | Vista previa de la distribución tradicional.                                  |
+| [Validación](VALIDACION.md)                               | Comprobaciones realizadas y alcance de la revisión visual.                    |
+| [Recibo de entrega](artifacts/canvas-base.delivery.json) | Resultado de las nueve comprobaciones de Archify e identidad de los archivos. |
 
-**Verificación realizada:** 9/9 comprobaciones de Archify, sin errores ni advertencias; comprobación de navegador en cuatro tamaños de escritorio y revisión de las capturas descritas en la validación.
+**Verificación realizada:** mapa base con 9/9 comprobaciones de Archify y evidencia de navegador en cuatro tamaños de escritorio. El explorador ampliable tiene comprobaciones independientes de interacción y adaptación a escritorio y móvil; consulta la validación.
+
+### Cuadros ampliables
+
+La dirección `artifacts/canvas-final.html` abre el explorador: pulsa un cuadro para leer su desarrollo, ejemplo ilustrativo, aspectos a evaluar, indicadores propuestos y fuentes. Puedes recorrer los nueve bloques, seguir los relacionados, cerrar con Escape y cambiar de tema. La impresión incluye el análisis completo.
+
+El botón **Mapa Archify** abre [el mapa base](artifacts/canvas-base.html), con zoom y exportación. Su JSON conserva los resúmenes; el contenido ampliado vive en `contenido-canvas.json`. La vista tradicional conserva la síntesis original.
+
+Para reconstruir el explorador después de editar contenido o estilos:
+
+```sh
+python3 Practica03/scripts/build-canvas.py
+```
 
 ### Consulta local
 
@@ -137,8 +149,8 @@ Ejecuta estos comandos desde la raíz del repositorio, con Node.js y la habilida
 
 ```sh
 node "/ruta/a/archify/bin/archify.mjs" validate architecture Practica03/artifacts/canvas-final.json --quality showcase --json
-node "/ruta/a/archify/bin/archify.mjs" deliver architecture Practica03/artifacts/canvas-final.json Practica03/artifacts/canvas-final.html --quality showcase --json
-node "/ruta/a/archify/bin/archify.mjs" visual-check Practica03/artifacts/canvas-final.html --json
+node "/ruta/a/archify/bin/archify.mjs" deliver architecture Practica03/artifacts/canvas-final.json Practica03/artifacts/canvas-base.html --quality showcase --json
+node "/ruta/a/archify/bin/archify.mjs" visual-check Practica03/artifacts/canvas-base.html --json
 ```
 
 La publicación actual utiliza la rama `main` y la carpeta `/ (root)` en GitHub Pages. La entrada del repositorio abre el mapa final de Archify; el Canvas tradicional tiene su propia dirección en `Practica03/`.

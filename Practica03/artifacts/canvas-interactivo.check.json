@@ -1,0 +1,125 @@
+{
+  "artifact_sha256": "fbc3ff3221f7cf880f0035aba30343de1f802724752c06eca8d7eef9a88aa145",
+  "checks": [
+    {
+      "label": "Contención 1440×900",
+      "ok": true
+    },
+    {
+      "label": "Contención 1600×1000",
+      "ok": true
+    },
+    {
+      "label": "Contención 1920×1080",
+      "ok": true
+    },
+    {
+      "label": "Contención 2048×1320",
+      "ok": true
+    },
+    {
+      "label": "Contención 390×844",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 0",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 0",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 1",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 1",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 2",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 2",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 3",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 3",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 4",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 4",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 5",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 5",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 6",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 6",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 7",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 7",
+      "ok": true
+    },
+    {
+      "label": "Abrir bloque 8",
+      "ok": true
+    },
+    {
+      "label": "Cerrar y devolver foco 8",
+      "ok": true
+    },
+    {
+      "label": "Abrir con Enter",
+      "ok": true
+    },
+    {
+      "label": "Cerrar con Escape",
+      "ok": true
+    },
+    {
+      "label": "Siguiente",
+      "ok": true
+    },
+    {
+      "label": "Anterior",
+      "ok": true
+    },
+    {
+      "label": "Bloque relacionado",
+      "ok": true
+    },
+    {
+      "label": "Impresión de nueve bloques",
+      "ok": true
+    },
+    {
+      "label": "Detalle móvil sin desbordamiento horizontal",
+      "ok": true
+    }
+  ]
+}

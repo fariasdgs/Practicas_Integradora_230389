@@ -15,6 +15,23 @@
           "text": "Tiendas de aplicaciones y proveedores de conectividad como aliados de distribución y acceso.",
           "evidence": "H"
         }
+      ],
+      "question": "¿Quién ayuda a entregar la propuesta?",
+      "explanation": "La plataforma necesita un ecosistema que conecte a los negocios con sus clientes. Conviene distinguir a los socios que integran soluciones de los recursos que la empresa administra internamente.",
+      "details": [
+        "Los integradores adaptan la API a procesos de atención y ventas. [F4]",
+        "Los proveedores de conectividad y las tiendas facilitan el acceso; su clasificación como socios es una hipótesis del Canvas. [H]",
+        "Meta se considera el contexto corporativo del producto, no un proveedor externo independiente. [Análisis]"
+      ],
+      "example": "Una tienda contrata a un integrador para conectar consultas de WhatsApp con su sistema de pedidos.",
+      "consideration": "Evaluar la calidad de la integración, la disponibilidad y la dependencia de terceros.",
+      "metrics": [
+        "Tiempo de integración",
+        "Incidencias atribuibles a terceros"
+      ],
+      "related": [
+        "recursos",
+        "canales"
       ]
     },
     {
@@ -30,6 +47,23 @@
           "text": "Mantenimiento, prevención de abuso y operación continua.",
           "evidence": "H"
         }
+      ],
+      "question": "¿Qué debe funcionar todos los días?",
+      "explanation": "Crear valor requiere sostener la comunicación y evolucionar las herramientas para negocios. El análisis separa las funciones observables de las actividades operativas que se infieren.",
+      "details": [
+        "Desarrollar y mantener las experiencias de mensajería y los productos empresariales. [F1, F4]",
+        "Atender fallos, mejorar la disponibilidad y prevenir abuso son actividades propuestas para el análisis. [H]",
+        "Documentar integraciones y facilitar su adopción conecta el producto con las necesidades de los negocios. [Análisis]"
+      ],
+      "example": "Una empresa conecta las notificaciones de sus pedidos con un flujo de atención al cliente.",
+      "consideration": "Equilibrar nuevas funciones con confiabilidad y una experiencia comprensible.",
+      "metrics": [
+        "Disponibilidad del servicio",
+        "Tiempo de resolución de incidentes"
+      ],
+      "related": [
+        "valor",
+        "costos"
       ]
     },
     {
@@ -45,6 +79,24 @@
           "text": "Atención comercial mediante perfiles, catálogos e integraciones.",
           "evidence": "F2, F4"
         }
+      ],
+      "question": "¿Qué problema resuelve?",
+      "explanation": "Para las personas, el valor está en comunicarse con sus contactos. Para los negocios, en conversar con clientes y acompañar consultas, compras y soporte dentro de un canal conocido.",
+      "details": [
+        "La mensajería permite compartir mensajes y archivos en dispositivos compatibles. [F1]",
+        "Business App reúne información del negocio y funciones para mostrar productos y responder consultas. [F2]",
+        "Business Platform permite integrar conversaciones con procesos empresariales. [F4]"
+      ],
+      "example": "Una persona pregunta por un producto; el comercio aclara dudas y acompaña el pedido en la misma conversación.",
+      "consideration": "La utilidad depende de la calidad de la atención; disponer del canal no garantiza una venta.",
+      "metrics": [
+        "Satisfacción del usuario",
+        "Consultas resueltas",
+        "Conversaciones que generan una acción útil"
+      ],
+      "related": [
+        "segmentos",
+        "relaciones"
       ]
     },
     {
@@ -60,6 +112,23 @@
           "text": "Acompañamiento de integradores para clientes empresariales.",
           "evidence": "H"
         }
+      ],
+      "question": "¿Cómo se mantiene la confianza?",
+      "explanation": "El modelo combina ayuda para usuarios y relaciones comerciales mediadas por herramientas empresariales. La atención que un negocio da a sus clientes no debe confundirse con el soporte que recibe de la plataforma.",
+      "details": [
+        "El centro de ayuda facilita consultas de autoservicio. [F5]",
+        "Business App permite mantener conversaciones directas entre comercios y clientes. [F2]",
+        "El acompañamiento de un integrador puede ayudar en casos empresariales; depende del acuerdo de servicio. [H]"
+      ],
+      "example": "Una cafetería responde preguntas habituales y deriva los casos particulares a una persona.",
+      "consideration": "Evitar respuestas irrelevantes y mantener expectativas claras sobre la atención.",
+      "metrics": [
+        "Satisfacción tras la atención",
+        "Consultas resueltas al primer contacto"
+      ],
+      "related": [
+        "actividades",
+        "valor"
       ]
     },
     {
@@ -75,6 +144,23 @@
           "text": "Empresas que integran atención y notificaciones mediante API.",
           "evidence": "F4"
         }
+      ],
+      "question": "¿Para quién se crea valor?",
+      "explanation": "No todos los usuarios tienen la misma necesidad ni la misma relación económica con la plataforma. Este Canvas distingue uso personal, pequeños comercios y organizaciones con integración técnica.",
+      "details": [
+        "Personas: comunicación cotidiana con contactos y grupos. [F1]",
+        "Pequeños negocios: presencia comercial y atención mediante Business App. [F2]",
+        "Organizaciones con necesidades de integración: automatización y conexión con sus sistemas mediante Business Platform. [F4]"
+      ],
+      "example": "Un estudiante coordina su equipo; una tienda responde consultas; una empresa integra seguimiento de pedidos.",
+      "consideration": "No equiparar el número de usuarios con el número de clientes que pagan por mensajes de la API.",
+      "metrics": [
+        "Uso recurrente por segmento",
+        "Adopción de herramientas empresariales"
+      ],
+      "related": [
+        "valor",
+        "ingresos"
       ]
     },
     {
@@ -90,6 +176,24 @@
           "text": "Infraestructura, personal técnico y red de usuarios.",
           "evidence": "H"
         }
+      ],
+      "question": "¿Qué permite sostener el servicio?",
+      "explanation": "Los recursos son los activos necesarios para entregar el valor. Las aplicaciones y la API son observables; la composición exacta de la infraestructura y los equipos internos no se afirma en este trabajo.",
+      "details": [
+        "Aplicaciones y API como medios técnicos para entregar el servicio. [F1, F4]",
+        "Infraestructura, conocimiento técnico y equipos de operación como recursos propuestos. [H]",
+        "La confianza y la red de contactos aportan utilidad al producto; es una interpretación del modelo. [Análisis]"
+      ],
+      "example": "Un equipo escolar encuentra valor cuando sus integrantes pueden usar el mismo canal de comunicación.",
+      "consideration": "Dependencia de la conectividad, confiabilidad y confianza de quienes usan el servicio.",
+      "metrics": [
+        "Continuidad del servicio",
+        "Retención de usuarios",
+        "Calidad percibida"
+      ],
+      "related": [
+        "actividades",
+        "socios"
       ]
     },
     {
@@ -105,6 +209,24 @@
           "text": "Business App y Business Platform para acceso empresarial.",
           "evidence": "F2, F4"
         }
+      ],
+      "question": "¿Cómo llega el servicio al usuario?",
+      "explanation": "Los canales permiten descubrir, acceder y usar la propuesta. Se distinguen las interfaces personales de las vías de integración empresarial.",
+      "details": [
+        "Aplicaciones móviles, WhatsApp Web y escritorio para dispositivos compatibles. [F1]",
+        "Business App como interfaz para pequeños negocios. [F2]",
+        "Business Platform y su ecosistema de integración como vía para conectar procesos empresariales. [F4]"
+      ],
+      "example": "Un comercio atiende desde su aplicación; una organización integra el canal con su sistema de clientes.",
+      "consideration": "La disponibilidad de una función puede variar entre dispositivos y productos.",
+      "metrics": [
+        "Activación por canal",
+        "Facilidad de acceso",
+        "Continuidad entre dispositivos"
+      ],
+      "related": [
+        "segmentos",
+        "socios"
       ]
     },
     {
@@ -120,6 +242,24 @@
           "text": "Desarrollo, seguridad, soporte y personal; sin cifras públicas verificadas en este trabajo.",
           "evidence": "H"
         }
+      ],
+      "question": "¿Qué gastos exige crear ese valor?",
+      "explanation": "Se presentan categorías de costos como hipótesis académicas. No se dispone de presupuestos internos ni se atribuyen cifras a WhatsApp.",
+      "details": [
+        "Infraestructura, conectividad y operación técnica. [H]",
+        "Desarrollo, mantenimiento, seguridad y personal especializado. [H]",
+        "Soporte y gestión del ecosistema de integraciones como categorías a investigar. [H]"
+      ],
+      "example": "Si crece el uso, se debe evaluar cómo cambian las necesidades de capacidad, soporte y mantenimiento.",
+      "consideration": "Más uso no demuestra por sí solo rentabilidad; faltan costos reales e ingresos comparables.",
+      "metrics": [
+        "Costo por unidad de uso",
+        "Costo de soporte",
+        "Eficiencia operativa"
+      ],
+      "related": [
+        "recursos",
+        "ingresos"
       ]
     },
     {
@@ -135,6 +275,24 @@
           "text": "Existen mensajes y ventanas gratuitas. Otros productos comerciales quedan fuera de este boceto.",
           "evidence": "F3"
         }
+      ],
+      "question": "¿Quién paga y por qué?",
+      "explanation": "El alcance de este análisis es la mensajería empresarial de Business Platform. No pretende inventariar todos los ingresos de WhatsApp o Meta.",
+      "details": [
+        "Business Platform cobra mensajes entregados sujetos a tarifa; el precio depende de la categoría y el mercado. [F3]",
+        "Existen mensajes y ventanas gratuitas; no todo mensaje empresarial genera un cobro. [F3]",
+        "El costo de un integrador puede ser distinto de la tarifa de la plataforma; no debe confundirse con ingreso directo de WhatsApp. [Análisis]"
+      ],
+      "example": "Una empresa estima su gasto según los mensajes sujetos a cobro y las condiciones aplicables, sin asumir que cada conversación tiene una tarifa fija.",
+      "consideration": "Consultar la tarifa vigente y sus excepciones antes de elaborar una estimación comercial.",
+      "metrics": [
+        "Volumen de mensajes sujetos a cobro",
+        "Ingreso por cliente empresarial",
+        "Retención empresarial"
+      ],
+      "related": [
+        "segmentos",
+        "costos"
       ]
     }
   ],
@@ -164,5 +322,7 @@
       "title": "Centro de ayuda",
       "url": "https://faq.whatsapp.com/"
     }
-  ]
+  ],
+  "reviewed": "2026-09-28",
+  "methodology": "Ejemplos ilustrativos e indicadores propuestos para análisis académico; no son datos internos ni métricas reportadas por WhatsApp."
 }
