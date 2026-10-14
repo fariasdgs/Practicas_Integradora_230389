@@ -12,6 +12,12 @@ Integradora · 11 pantallas principales · 3 estados alternos
 
 </div>
 
+## Sketches de WhatsApp · Modo oscuro
+
+[![Captura de los sketches de WhatsApp en modo oscuro: recorridos de la persona usuaria y del negocio, con tres estados alternos](artifacts/sketches.dark.png)](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/)
+
+Pulsa la captura para abrir los sketches interactivos en GitHub Pages.
+
 ## Ver el resultado y las capturas
 
 | Resultado | Enlace en GitHub Pages | Qué encontrarás |
