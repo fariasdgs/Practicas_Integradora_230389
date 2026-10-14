@@ -1,6 +1,44 @@
+<div align="center">
+
 # Práctica 06 · Secuencia de pantallas de WhatsApp
 
-Abre [index.html](index.html) para explorar los bocetos. La página es autocontenida: incluye estilos, lógica, ilustraciones SVG originales y un mapa complementario generado con Archify. Puede abrirse directamente sin servidor ni conexión.
+**Sketches interactivos · Persona usuaria y negocio · Archify**
+
+Integradora · 11 pantallas principales · 3 estados alternos
+
+[**Explorar los sketches en GitHub Pages →**](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/)
+
+[Mapa interactivo de Archify](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/recorridos.archify.html) · [Captura clara](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.light.png) · [Captura oscura](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.dark.png) · [Captura móvil](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.mobile.png)
+
+</div>
+
+## Ver el resultado y las capturas
+
+| Resultado | Enlace en GitHub Pages | Qué encontrarás |
+| --- | --- | --- |
+| **Sketches interactivos** | [Abrir la práctica](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/) | Teléfonos con bocetos propios, paneles de detalle, selección de roles y cambio de tema. |
+| **Mapa de navegación en Archify** | [Explorar el mapa](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/recorridos.archify.html) | Los dos carriles y la consulta que conecta a la persona con el negocio. |
+| Sketches · tema claro | [Ver captura](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.light.png) | Página completa en tema claro, a 1440 px de ancho. |
+| Sketches · tema oscuro | [Ver captura](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.dark.png) | Página completa en tema oscuro, a 1440 px de ancho. |
+| Sketches · vista móvil | [Ver captura](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.mobile.png) | Adaptación a 390 px de ancho con diagrama desplazable. |
+| Panel de una pantalla | [Ver captura del detalle](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.detail.png) | Propósito, elementos de interfaz, siguiente acción y fuente del perfil del negocio. |
+| Sketches · pantalla grande | [Tema claro](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.large.light.png) · [Tema oscuro](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/sketches.large.dark.png) | Capturas de la composición a 2048 px de ancho. |
+| Evidencias visuales de Archify | [Abrir galería](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/artifacts/recorridos.archify.visual-check.html) | Capturas del mapa en escritorio y en ambos temas. |
+
+**Publicación:** estos enlaces apuntan a la ruta de la práctica en GitHub Pages. Estarán disponibles cuando `Practica06` se incorpore a la rama que publica el sitio y termine el despliegue. Para verla localmente, abre [index.html](index.html); las capturas también están en [artifacts/](artifacts/).
+
+<details>
+<summary><strong>Ver una vista previa de los sketches</strong></summary>
+
+[![Sketches de WhatsApp: recorrido de una persona y de un negocio, con estados alternos](artifacts/sketches.light.png)](https://fariasdgs.github.io/Practicas_Integradora_230389/Practica06/)
+
+Pulsa la imagen para abrir la versión interactiva en GitHub Pages.
+
+</details>
+
+## Acerca de la práctica
+
+La página es autocontenida: incluye estilos, lógica, ilustraciones SVG originales y un mapa complementario generado con Archify. Puede abrirse directamente sin servidor ni conexión.
 
 Se retoma WhatsApp de la práctica 03. Los roles se adaptan a **persona usuaria de WhatsApp Messenger** y **negocio que usa WhatsApp Business**, dos aplicaciones distintas. El ejemplo representa una consulta sobre un producto de una tienda ficticia.
 
@@ -11,7 +49,7 @@ Se retoma WhatsApp de la práctica 03. Los roles se adaptan a **persona usuaria 
 - Conexión entre carriles: la consulta enviada por la persona llega a la conversación que atiende el negocio.
 - Estados alternos: sin conexión, búsqueda sin resultados y contenido no disponible. Su presentación se identifica como **supuesto**.
 
-El registro resume configuración inicial y verificación. Las transiciones del chat comercial al catálogo y del catálogo al perfil incluyen volver a las herramientas del negocio; las pantallas intermedias se omiten y se explican en el panel. No se representan estadísticas de artista ni funciones de Spotify.
+El registro resume configuración inicial y verificación. Las transiciones del chat comercial al catálogo y del catálogo al perfil incluyen volver a las herramientas del negocio; las pantallas intermedias se omiten y se explican en el panel.
 
 ## Interacción y accesibilidad
 
@@ -56,7 +94,7 @@ Para repetir la comprobación personalizada, el segundo argumento debe ser un ej
 node Practica06/scripts/verify.mjs /ruta/a/archify /ruta/al/navegador
 ```
 
-La página está preparada para publicarse en `/Practica06/` cuando sus archivos se incorporen a la rama que publica GitHub Pages. Esta tarea deja los archivos locales en la rama `practica06`.
+La página está preparada para publicarse en `/Practica06/`. La rama de trabajo de esta actividad es `practica06`.
 
 ## Fuentes oficiales
 
@@ -68,3 +106,5 @@ Consultadas el 14 de octubre de 2026. Las fuentes respaldan funciones generales;
 - [WhatsApp Business App](https://faq.whatsapp.com/641572844337957).
 - [Acerca del catálogo](https://faq.whatsapp.com/405903568419894/).
 - [Consultar un catálogo](https://faq.whatsapp.com/494713302702908/).
+
+[← Volver al índice de prácticas](../README.md) · [Consultar la práctica 03](../Practica03/README.md)
