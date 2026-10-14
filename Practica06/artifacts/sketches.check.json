@@ -1,0 +1,398 @@
+{
+  "status": "pass",
+  "artifact": {
+    "path": "../index.html",
+    "sha256": "fa0a377f8d6b3bd40e0982e3afe89048a035128eb96902b82be359e3d08adcd9",
+    "bytes": 1139033
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "pageWidth": 1440,
+      "pageHeight": 1654,
+      "diagramClient": 1374,
+      "diagramScroll": 1374,
+      "textOverflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "pageWidth": 1600,
+      "pageHeight": 1743,
+      "diagramClient": 1534,
+      "diagramScroll": 1534,
+      "textOverflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pageWidth": 1920,
+      "pageHeight": 1798,
+      "diagramClient": 1854,
+      "diagramScroll": 1854,
+      "textOverflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "pageWidth": 2048,
+      "pageHeight": 1798,
+      "diagramClient": 1854,
+      "diagramScroll": 1854,
+      "textOverflow": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pageWidth": 768,
+      "pageHeight": 2386,
+      "diagramClient": 734,
+      "diagramScroll": 1360,
+      "textOverflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "pageWidth": 390,
+      "pageHeight": 2559,
+      "diagramClient": 356,
+      "diagramScroll": 1360,
+      "textOverflow": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "Contención horizontal 1440",
+      "ok": true,
+      "evidence": {
+        "width": 1440,
+        "height": 900,
+        "pageWidth": 1440,
+        "pageHeight": 1654,
+        "diagramClient": 1374,
+        "diagramScroll": 1374,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 1440",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Contención horizontal 1600",
+      "ok": true,
+      "evidence": {
+        "width": 1600,
+        "height": 1000,
+        "pageWidth": 1600,
+        "pageHeight": 1743,
+        "diagramClient": 1534,
+        "diagramScroll": 1534,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 1600",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Contención horizontal 1920",
+      "ok": true,
+      "evidence": {
+        "width": 1920,
+        "height": 1080,
+        "pageWidth": 1920,
+        "pageHeight": 1798,
+        "diagramClient": 1854,
+        "diagramScroll": 1854,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 1920",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Contención horizontal 2048",
+      "ok": true,
+      "evidence": {
+        "width": 2048,
+        "height": 1320,
+        "pageWidth": 2048,
+        "pageHeight": 1798,
+        "diagramClient": 1854,
+        "diagramScroll": 1854,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 2048",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Contención horizontal 768",
+      "ok": true,
+      "evidence": {
+        "width": 768,
+        "height": 1024,
+        "pageWidth": 768,
+        "pageHeight": 2386,
+        "diagramClient": 734,
+        "diagramScroll": 1360,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 768",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Desplazamiento interno móvil 768",
+      "ok": true,
+      "evidence": {
+        "width": 768,
+        "height": 1024,
+        "pageWidth": 768,
+        "pageHeight": 2386,
+        "diagramClient": 734,
+        "diagramScroll": 1360,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Contención horizontal 390",
+      "ok": true,
+      "evidence": {
+        "width": 390,
+        "height": 844,
+        "pageWidth": 390,
+        "pageHeight": 2559,
+        "diagramClient": 356,
+        "diagramScroll": 1360,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Textos dentro de marcos 390",
+      "ok": true,
+      "evidence": []
+    },
+    {
+      "name": "Desplazamiento interno móvil 390",
+      "ok": true,
+      "evidence": {
+        "width": 390,
+        "height": 844,
+        "pageWidth": 390,
+        "pageHeight": 2559,
+        "diagramClient": 356,
+        "diagramScroll": 1360,
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "14 bocetos originales",
+      "ok": true,
+      "evidence": 14
+    },
+    {
+      "name": "Panel p-acceso",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Registro / acceso",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/506595211487528/"
+      }
+    },
+    {
+      "name": "Panel p-chats",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Chats",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/1131773267485499/?cms_platform=iphone&locale=es_LA"
+      }
+    },
+    {
+      "name": "Panel p-buscar",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Buscar",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/1131773267485499/?cms_platform=iphone&locale=es_LA"
+      }
+    },
+    {
+      "name": "Panel p-chat",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Conversación",
+        "elements": 5,
+        "pressed": "true",
+        "source": "https://www.whatsapp.com/messaging?lang=en"
+      }
+    },
+    {
+      "name": "Panel p-perfil",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Perfil del negocio",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/494713302702908/"
+      }
+    },
+    {
+      "name": "Panel p-catalogo",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Catálogo",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/405903568419894/"
+      }
+    },
+    {
+      "name": "Panel n-acceso",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Registro Business",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/641572844337957"
+      }
+    },
+    {
+      "name": "Panel n-chats",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Chats del negocio",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/641572844337957"
+      }
+    },
+    {
+      "name": "Panel n-chat",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Atención al cliente",
+        "elements": 5,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/405903568419894/"
+      }
+    },
+    {
+      "name": "Panel n-catalogo",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Gestionar catálogo",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/405903568419894/"
+      }
+    },
+    {
+      "name": "Panel n-perfil",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Perfil comercial",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/641572844337957"
+      }
+    },
+    {
+      "name": "Panel e-offline",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Sin conexión",
+        "elements": 4,
+        "pressed": "true",
+        "source": "https://www.whatsapp.com/messaging?lang=en"
+      }
+    },
+    {
+      "name": "Panel e-empty",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Búsqueda sin resultados",
+        "elements": 3,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/1131773267485499/?cms_platform=iphone&locale=es_LA"
+      }
+    },
+    {
+      "name": "Panel e-unavailable",
+      "ok": true,
+      "evidence": {
+        "open": true,
+        "title": "Contenido no disponible",
+        "elements": 3,
+        "pressed": "true",
+        "source": "https://faq.whatsapp.com/405903568419894/"
+      }
+    },
+    {
+      "name": "Selección de rol",
+      "ok": true
+    },
+    {
+      "name": "Restablecer",
+      "ok": true
+    },
+    {
+      "name": "Acción siguiente",
+      "ok": true
+    },
+    {
+      "name": "Abrir con Enter",
+      "ok": true,
+      "evidence": {
+        "focused": "<button class=\"close\" id=\"close-detail\" aria-label=\"Cerrar detalle\">×</button>",
+        "selected": "p-acceso",
+        "open": true
+      }
+    },
+    {
+      "name": "Escape y devolución del foco",
+      "ok": true
+    },
+    {
+      "name": "Tema oscuro",
+      "ok": true
+    },
+    {
+      "name": "Movimiento reducido",
+      "ok": true
+    },
+    {
+      "name": "Mapa Archify integrado",
+      "ok": true
+    }
+  ],
+  "visualReview": "pending",
+  "note": "El HTML de bocetos permite desplazamiento vertical y desplazamiento horizontal interno en móvil según el alcance solicitado."
+}

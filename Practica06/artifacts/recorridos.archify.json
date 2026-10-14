@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "WhatsApp · Secuencia de pantallas",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "persona",
+      "label": "Persona usuaria"
+    },
+    {
+      "id": "negocio",
+      "label": "Negocio · Business"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "p-acceso",
+      "lane": "persona",
+      "col": 0,
+      "type": "frontend",
+      "label": "Registro / acceso",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "p-chats",
+      "lane": "persona",
+      "col": 1,
+      "type": "frontend",
+      "label": "Chats",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "p-buscar",
+      "lane": "persona",
+      "col": 2,
+      "type": "frontend",
+      "label": "Buscar",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "p-chat",
+      "lane": "persona",
+      "col": 3,
+      "type": "frontend",
+      "label": "Conversación",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "p-perfil",
+      "lane": "persona",
+      "col": 4,
+      "type": "frontend",
+      "label": "Perfil del negocio",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "p-catalogo",
+      "lane": "persona",
+      "col": 5,
+      "type": "frontend",
+      "label": "Catálogo",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "n-acceso",
+      "lane": "negocio",
+      "col": 0,
+      "type": "frontend",
+      "label": "Registro Business",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "n-chats",
+      "lane": "negocio",
+      "col": 1,
+      "type": "frontend",
+      "label": "Chats del negocio",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "n-chat",
+      "lane": "negocio",
+      "col": 3,
+      "type": "frontend",
+      "label": "Atención al cliente",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "n-catalogo",
+      "lane": "negocio",
+      "col": 4,
+      "type": "frontend",
+      "label": "Gestionar catálogo",
+      "width": 180,
+      "height": 72
+    },
+    {
+      "id": "n-perfil",
+      "lane": "negocio",
+      "col": 5,
+      "type": "frontend",
+      "label": "Perfil comercial",
+      "width": 180,
+      "height": 72
+    }
+  ],
+  "edges": [
+    {
+      "id": "p-acceso-next",
+      "from": "p-acceso",
+      "to": "p-chats",
+      "label": "Verifica el número",
+      "role": "main"
+    },
+    {
+      "id": "p-chats-next",
+      "from": "p-chats",
+      "to": "p-buscar",
+      "label": "Busca un chat",
+      "role": "main"
+    },
+    {
+      "id": "p-buscar-next",
+      "from": "p-buscar",
+      "to": "p-chat",
+      "label": "Abre el resultado",
+      "role": "main"
+    },
+    {
+      "id": "p-chat-next",
+      "from": "p-chat",
+      "to": "p-perfil",
+      "label": "Toca el nombre",
+      "role": "main"
+    },
+    {
+      "id": "p-perfil-next",
+      "from": "p-perfil",
+      "to": "p-catalogo",
+      "label": "Abre el catálogo",
+      "role": "main"
+    },
+    {
+      "id": "n-acceso-next",
+      "from": "n-acceso",
+      "to": "n-chats",
+      "label": "Verifica el número",
+      "role": "main"
+    },
+    {
+      "id": "n-chats-next",
+      "from": "n-chats",
+      "to": "n-chat",
+      "label": "Abre la consulta",
+      "role": "main"
+    },
+    {
+      "id": "n-chat-next",
+      "from": "n-chat",
+      "to": "n-catalogo",
+      "label": "Abre herramientas",
+      "role": "main"
+    },
+    {
+      "id": "n-catalogo-next",
+      "from": "n-catalogo",
+      "to": "n-perfil",
+      "label": "Vuelve a herramientas",
+      "role": "main"
+    },
+    {
+      "id": "consulta",
+      "from": "p-chat",
+      "to": "n-chat",
+      "label": "Envía consulta",
+      "role": "async",
+      "variant": "dashed"
+    }
+  ],
+  "mainPath": [
+    "p-acceso",
+    "p-chats",
+    "p-buscar",
+    "p-chat",
+    "p-perfil",
+    "p-catalogo"
+  ]
+}
